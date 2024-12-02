@@ -92,6 +92,7 @@ def jugar(nombre_anterior):
     partidas.append(partida)
 
     pygame.mixer.music.load("tp_juego/sounds/cancion_bkgrnd.mp3")
+    pygame.mixer.music.set_volume(0.5)
     pygame.mixer.music.play(-1)
     if mute:
         pygame.mixer.music.pause()
